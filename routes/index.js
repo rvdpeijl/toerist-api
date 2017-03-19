@@ -15,6 +15,6 @@ var routes = {
 // Setup Route Bindings
 exports = module.exports = function (app) {
 	// Views
-	app.get('/', routes.views.index);
+	// app.get('/', routes.views.index);
 	app.get('/api/v1/all', routes.api.all);
 };
