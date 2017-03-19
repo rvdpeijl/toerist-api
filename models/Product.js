@@ -19,5 +19,5 @@ Product.add({
 /**
  * Registration
  */
-Product.defaultColumns = 'name, price';
+Product.defaultColumns = 'name, category, price';
 Product.register();
